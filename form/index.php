@@ -27,16 +27,16 @@ if (!empty($_POST)) {
 
 
 
+?>
+ <form action="index.php" method="post">
+  <input type="text" name="userName" placeholder="Ваше имя"><br>
+  <input type="text" name="userEmail" placeholder="Ваш Email"><br>
+  <textarea name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+  <br>
+  <input type="submit" value="Отправить форму!">
+</form> 
 
-// <!--  <form action="index.php" method="post">
-//   <input type="text" name="userName" placeholder="Ваше имя"><br>
-//   <input type="text" name="userEmail" placeholder="Ваш Email"><br>
-//   <textarea name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-//   <br>
-//   <input type="submit" value="Отправить форму!">
-// </form> 
-//  -->
-
+<?
 
 
 
